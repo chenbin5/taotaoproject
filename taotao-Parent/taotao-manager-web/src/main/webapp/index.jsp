@@ -6,6 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Insert title here</title>
 </head>
+<script type="application/javascript">
+
+</script>
 <body>
 <h1>欢迎登陆taotao-manager-web工程</h1>
 </body>
