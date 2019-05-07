@@ -1,5 +1,9 @@
 package com.taotao.service;
 
+import com.taotao.pojo.TbItem;
+
+import java.util.List;
+
 /**
  * @author 陈斌
  * @Description
@@ -7,4 +11,5 @@ package com.taotao.service;
  */
 public interface ItemService {
 
+    public List<TbItem> queryItemInfo(TbItem tbItem);
 }

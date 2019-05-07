@@ -10,7 +10,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
 	<!-- 加载dubbo消费者配置 -->
-	<!--<import resource="classpath:dubbo/dubbo-consumer.xml"/>-->
+	<import resource="classpath:dubbo/dubbo-consumer.xml"/>
 	<!-- 加载属性文件 -->
 	<context:property-placeholder location="classpath:resource/resource.properties"/>
 	<!-- 配置注解驱动 -->

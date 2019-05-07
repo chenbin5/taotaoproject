@@ -11,7 +11,7 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 	
 	<!-- 加载dubbo生产者配置信息 -->
-	<!--<import resource="classpath:dubbo/dubbo-provider.xml"/>-->
+	<import resource="classpath:dubbo/dubbo-provider.xml"/>
 	<!-- 加载activemq生产者配置信息 -->
 	<!--<import resource="classpath:activemq/activemq-producer.xml"/>-->
 	<!-- 配置包扫描器，扫描所有带@Service注解的类 -->
