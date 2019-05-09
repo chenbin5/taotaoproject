@@ -5,8 +5,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Insert title here</title>
+    <script type="text/javascript" src="/js/test-js/test.js" />
 </head>
 <body>
-<h1>欢迎登陆taotao-manager-web工程</h1>
+<h1><a id="test">欢迎登陆taotao-manager-web工程</a></h1>
 </body>
 </html>
