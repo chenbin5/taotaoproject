@@ -21,13 +21,21 @@ import java.util.List;
 @RequestMapping(value = "/test",produces = { "text/html;charset=UTF-8;", "application/json;charset=UTF-8;" })
 public class TestController {
 
-    @Autowired
+    @Autowired(required = false)
     private ItemService itemService;
 
     @RequestMapping("/toTestPage")
     public ModelAndView toTestPage() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("test/addTest");
+        return modelAndView;
+    }
+
+
+    @RequestMapping("/toPicturePage")
+    public ModelAndView toPicturePage() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("test/pictures");
         return modelAndView;
     }
 
