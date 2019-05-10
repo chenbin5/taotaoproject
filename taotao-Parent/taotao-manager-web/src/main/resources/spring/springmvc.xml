@@ -18,14 +18,15 @@
 	<!-- 视图解析器 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/jsp/" />
-		<property name="suffix" value=".jsp" />
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".html" />
 	</bean>
 	<!-- 配置包扫描器，扫描@Controller注解的类 -->
 	<context:component-scan base-package="com.taotao.controller"/>
 	<!-- 配置资源映射 -->
 	<mvc:resources location="/css/" mapping="/css/**"/>
 	<mvc:resources location="/js/" mapping="/js/**"/>
+	<mvc:default-servlet-handler />
 	<!-- 配置多媒体解析器 -->
 	<bean id="multipartResolver"
 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
