@@ -26,9 +26,8 @@ public class ItemServiceImpl implements ItemService {
 
         TbItemExample tbItemExample = new TbItemExample();
         Criteria criteria = tbItemExample.createCriteria();
-        if (!StringUtils.isEmpty(tbItem.getCid())) {
-            criteria.andCidEqualTo(tbItem.getCid());
-        }
+         criteria.andCidEqualTo(tbItem.getCid());
+         System.out.println("查询条件为：" + criteria);
         List<TbItem> list = tbItemMapper.selectByExample(tbItemExample);
         return list;
     }
