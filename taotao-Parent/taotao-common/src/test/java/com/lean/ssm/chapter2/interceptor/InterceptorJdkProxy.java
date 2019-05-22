@@ -60,7 +60,7 @@ public class InterceptorJdkProxy implements InvocationHandler {
         //调用前置方法
         if (interceptor.before(proxy,target,method,args)) {
             //反射原有对象的方法
-            result = method.invoke(method,args);
+            result = method.invoke(target,args);
         } else { //返回fasle执行around方法
             interceptor.around(proxy,target,method,args);
         }
