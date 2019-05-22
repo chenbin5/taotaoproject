@@ -7,7 +7,7 @@ package com.lean.ssm.chapter2.reflect;
  */
 public class ReflectServiceImpl {
 
-    public static void sayHello(String name) {
+    public void sayHello(String name) {
         System.out.println("Hello " + name);
     }
 
