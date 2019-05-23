@@ -3,11 +3,18 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/taotao-Parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taotao-Parent/taotao-protal-web" charset="UTF-8" />
   </component>
 </project>

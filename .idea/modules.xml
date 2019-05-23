@@ -4,6 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-Parent.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-Parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-common/taotao-common.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-common/taotao-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-dao/taotao-guns-manager-dao.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-dao/taotao-guns-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-interface/taotao-guns-manager-interface.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-interface/taotao-guns-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-pojo/taotao-guns-manager-pojo.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-pojo/taotao-guns-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-service/taotao-guns-manager-service.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-guns-manager/taotao-guns-manager-service/taotao-guns-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-guns-web/taotao-guns-web.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-guns-web/taotao-guns-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-dao/taotao-manager-dao.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-dao/taotao-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/taotao-Parent/taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" />

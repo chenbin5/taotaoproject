@@ -7,6 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="taotao-common" />
+        <module name="taotao-guns-manager-dao" />
+        <module name="taotao-guns-manager-interface" />
+        <module name="taotao-guns-manager-pojo" />
+        <module name="taotao-guns-manager-service" />
+        <module name="taotao-guns-web" />
         <module name="taotao-manager-dao" />
         <module name="taotao-manager-interface" />
         <module name="taotao-manager-pojo" />
@@ -16,6 +21,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="taotao-common" target="1.5" />
+      <module name="taotao-guns-manager" target="1.5" />
+      <module name="taotao-guns-manager-dao" target="1.5" />
+      <module name="taotao-guns-manager-interface" target="1.5" />
+      <module name="taotao-guns-manager-pojo" target="1.5" />
+      <module name="taotao-guns-manager-service" target="1.5" />
+      <module name="taotao-guns-web" target="1.5" />
       <module name="taotao-manager" target="1.5" />
       <module name="taotao-manager-dao" target="1.5" />
       <module name="taotao-manager-interface" target="1.5" />
@@ -23,6 +34,7 @@
       <module name="taotao-manager-service" target="1.5" />
       <module name="taotao-manager-web" target="1.5" />
       <module name="taotao-Parent" target="1.5" />
+      <module name="taotao-protal-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
